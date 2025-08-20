@@ -68,7 +68,7 @@ namespace CrmPlugins
                 if (!string.IsNullOrWhiteSpace("ml_numerosecuencialdeldia"))
                 {
                     var updateLead = new Entity("lead", leadId);
-                    updateLead["ml_numerosecuencialdeldia"] = seq;
+                    updateLead["ml_numerosecuencialdeldia"] = pos;
                     service.Update(updateLead);
                 }
 
@@ -77,7 +77,7 @@ namespace CrmPlugins
                 hist["ml_clientepotencial"] = new EntityReference("lead", leadId);
                 hist["ml_asesor"] = new EntityReference("systemuser", asesorRef.Id);
                 hist["ml_fechadeasignacion"] = DateTime.UtcNow;
-                hist["ml_numerosecuencialdeldia"] = seq;
+                hist["ml_numerosecuencialdeldia"] = pos;
                 service.Create(hist);
 
                 tracing.Trace($"LeadCreatePlugin OK. Lead {leadId}, seq {seq}, pos {pos}, Asesor: {asesorRef.Id}");
