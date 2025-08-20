@@ -1,0 +1,11 @@
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\bin\Debug\AsesorPlugin.dll
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\bin\Debug\AsesorPlugin.pdb
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\obj\Debug\AsesorPlugin.csproj.AssemblyReference.cache
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\obj\Debug\AsesorPlugin.csproj.CoreCompileInputs.cache
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\obj\Debug\AsesorPl.C7488108.Up2Date
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\obj\Debug\AsesorPlugin.dll
+C:\Users\LemaMarceloFernand\Downloads\CRM\MyCRM\AsesorPlugin\obj\Debug\AsesorPlugin.pdb
