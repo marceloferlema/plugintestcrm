@@ -21,11 +21,23 @@ namespace AsesorPlugin
                 context.PrimaryEntityName == "ml_rankingdeasesores")
             {
                 var rankingRecord = (Entity)context.InputParameters["Target"];
-                int pos = 1;
+                int pos = -1;
                 var posOption = rankingRecord.GetAttributeValue<OptionSetValue>("ml_posicionranking");
                 if (posOption != null)
                 {
                     pos = posOption.Value;
+                }
+                else //Cuando cambia estado no se envía la posición
+                { 
+                    if (context.MessageName == "Update" && context.PreEntityImages.Contains("PreImage"))
+                    {
+                        var preImage = context.PreEntityImages["PreImage"];
+                        var prePosOption = preImage.GetAttributeValue<OptionSetValue>("ml_posicionranking");
+                        if (prePosOption != null)
+                        {
+                            pos = prePosOption.Value;
+                        }
+                    }
                 }
 
                 if (pos < 1 || pos > 5)
